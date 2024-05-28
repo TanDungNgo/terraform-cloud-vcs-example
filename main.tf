@@ -16,7 +16,7 @@ terraform {
 }
 
 locals {
-  project = "terraform-module-multi-tier-app"
+  project = "terraform-cloud-vcs-example"
 }
 
 provider "aws" {
