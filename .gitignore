@@ -1,0 +1,32 @@
+.terraform/
+# Terraform specific files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform/
+.terraform.lock.hcl
+
+# Ignore editor and system specific files
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
+.DS_Store
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files
+*.log
+
+# Ignore local environment files
+.env
+.env.*
